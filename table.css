@@ -13,7 +13,7 @@ table {
 }
 
 td, th {
-    border: 0.02em solid #000;
+    border: 0.02em solid gray;
     padding: 10px;
     text-align: center;
 }
@@ -26,8 +26,7 @@ caption {
 }
 
 thead, tfoot {
-    background: gray;
-    color: rgb(255, 255, 255);
+    background: #a7a7a70f;
 }
 
 td.num {
