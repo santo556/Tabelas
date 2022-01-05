@@ -1,30 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
-    margin: auto;
-    text-decoration: none;
-}
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
     padding: 1em;
 }
 
 a {
     background-color: rgb(206, 205, 205);
     font: Arial 19pt bold;
-    color: rgb(55, 58, 58);
+    color: rgb(235, 220, 10);
+    text-decoration: none;
 }
 
 a:hover {
-    background: #fad505;
+    background: #000000;
     border: 1px solid #000;
-    border-radius: 2px;
-    transition: 2ms;
+    border-radius: 0.2em;
+    transition: 4ms;
 }
 
 table {
@@ -33,7 +27,7 @@ table {
 }
 
 td, th {
-    border: 0.01em solid gray;
+    border: 1px solid #000;
     padding: 10px;
 }
 
@@ -42,12 +36,4 @@ caption {
     font-weight: bold;
     padding: 7px;
     background-color: lightgray;
-}
-
-thead {
-    background: #a7a7a70f;
-}
-
-td.num {
-    text-align: right;
 }
